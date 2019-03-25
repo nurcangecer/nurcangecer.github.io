@@ -1,0 +1,67 @@
+div.divPublication {
+	/*background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;*/
+    margin:0px;
+    padding:0px;
+} 
+
+div.divTeaser {
+    margin:0px;
+    padding:0px;
+    vertical-align: middle;
+} 
+
+div.divVideo {
+    margin:0px;
+    padding:0px;
+}
+
+div.divSupplementary{
+    margin:0px;
+    padding:0px;
+}
+
+div.bibtex { 
+    font-size:12pt; 
+    font-family:"Courier New"; 
+    font-weight:normal; 
+    color:#000000; 
+    text-decoration:none; 
+}
+
+.ImageBorder
+{
+    border:1px solid #aeaaa5;
+}
+
+.divTeaser {
+  width: 200px;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  background:#FFF;
+  clip: rect(auto,auto,auto,auto);
+  /*border:1px solid #aeaaa5;*/
+  margin: 2px;
+  text-align: left;
+  padding: 0px;
+  clear: both;
+}
+
+.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+
+.divBanner { 
+  height: auto; 
+  width: 800px; 
+  overflow: hidden;
+  /*border:1px solid #aeaaa5;*/
+  clip: rect(auto,auto,auto,auto);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
