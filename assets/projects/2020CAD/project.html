@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Nurcan Gecer Ulu</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="../../../assets/css/main.css" rel="stylesheet">
+
+    <link href="../../../assets/css/vdel.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../../assets/js/hover.zoom.js"></script>
+    <script src="../../../assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../../index.html">NURCAN GECER ULU</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+<!--             <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	
+	<!-- +++++ Projects Section +++++ -->
+	
+	<div class="container pt">
+		<div class="row mt">
+			<div class="col-lg-12 centered">
+				<img class="divBanner" src="banner.png">
+				<h4>Sliding Basis Optimization for Heterogeneous Material Design</h4>
+				<h5 style = "font-weight: lighter"> Nurcan Gecer Ulu | Svyatoslav Korneev | Erva Ulu | Saigopal Nelaturi</h5>
+				<h5 style = "font-weight: lighter"> Palo Alto Research Center</h5>
+				<hr>
+				<p><a href="ref.bib" target="_blank">BibTeX</a> | <a href="paper.pdf" target="_blank">PDF</a> | <a href="presentation.pdf" target="_blank">Presentation</a></p>
+
+				<p align="justify">We present the sliding basis computational framework to automatically synthesize heterogeneous (graded or discrete) material fields for parts designed using constrained optimization. Our framework uses the fact that any spatially varying material field over a given domain may be parameterized as a weighted sum of the Laplacian eigenfunctions. We bound the parameterization of all material fields using a small set of weights to truncate the Laplacian eigenfunction expansion, which enables efficient design space exploration with the weights as a small set of design variables. We further improve computational efficiency by using the property that the Laplacian eigenfunctions form a spectrum and may be ordered from lower to higher frequencies. Starting the optimization with a small set of weighted lower frequency basis functions we iteratively include higher frequency bases by sliding a window over the space of ordered basis functions as the optimization progresses. This approach allows greater localized control of the material distribution as the sliding window moves through higher frequencies. The approach also reduces the number of optimization variables per iteration, thus the design optimization process speeds up independent of the domain resolution without sacrificing analysis quality. While our method is useful for problems where analytical gradients are available, it is most beneficial when the gradients may not be computed easily (i.e., optimization problems coupled with external black-box analysis) thereby enabling optimization of otherwise intractable design problems. The sliding basis framework is independent of any particular physics analysis, objective and constraints, providing a versatile and powerful design optimization tool for various applications. We demonstrate our approach on graded solid rocket fuel design and multi-material topology optimization applications and evaluate its performance. </p>
+				
+
+				<!-- VIDEO -->
+				<h4 style = "font-weight: lighter"> Example Burn Propagation</h4>
+				<hr>
+				<video width="840" height="472.5" controls> 
+          <source src="propagation.mp4" type="video/mp4">
+        </video>
+				<br>
+
+
+			</div>
+		</div>
+	</div><!-- /container -->
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+				</div><!-- /col-lg-4 -->
+			</div>	
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
